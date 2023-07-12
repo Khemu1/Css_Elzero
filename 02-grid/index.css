@@ -1,0 +1,41 @@
+*   {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    color: white;
+    font-weight: bold;
+}
+.layout {
+    margin: 25px auto;
+    width: 800px;
+    height: 600px;
+    display: grid;
+    background-color: #eee;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: 50px auto 50px;
+    gap :5px;
+    grid-template-areas: "logo logo logo logo logo logo logo logo logo logo" "cont cont cont cont cont cont cont side side side" " foot foot foot foot foot foot foot foot foot foot ";
+}
+
+header  {
+    display: grid;
+    background-color: red;
+    grid-area: logo;
+    justify-content: center;
+    align-items: center;
+}
+section {
+    background-color: green;
+    grid-area:cont;
+}
+aside   {
+    background-color: rgb(153, 17, 231);
+    grid-area: side;
+    
+}
+footer {
+    display: grid;
+    background-color: rgb(15, 54, 224);
+    grid-area: foot;
+    justify-content: center;
+    align-items: center;
+}
