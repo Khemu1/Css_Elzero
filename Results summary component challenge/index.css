@@ -1,0 +1,202 @@
+*   {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.layout {
+    background: hsl(221, 100%, 96%);
+    width: 1440px;
+    height: 1200px;
+    position: relative;
+    margin: 50px auto;
+}
+.right  {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);
+    position: absolute;
+    right: 305px;
+    width: 400px;
+    height: 500px;
+    border: 1px solid aliceblue;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    margin: 400px auto;
+}
+.bars   {
+    display: flex;
+    flex-direction: column;
+    row-gap:15px ;
+}
+
+.bar-1   {
+    display: flex;
+    /* column-gap: 72px; */
+    background-color: hsl(0, 100%, 67%,5%);
+    border: 1px solid hsl(0, 100%, 67%,5%) ;
+    border-radius: 10px;
+    /* padding: 5px 65px; */
+    justify-content: space-around;
+    width: 272px;
+    height: 49px;
+}
+
+.text-1   {
+    display:flex;
+    color: hsl(0, 100%, 67%);
+    column-gap: 2px;
+    
+}
+.score-1  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+.bar-2   {
+    display: flex;
+    /* column-gap: 72px; */
+    background-color: hsl(39, 100%, 56%,5%);
+    border: 1px solid hsl(39, 100%, 56%,5%);
+    border-radius: 10px;
+    justify-content: space-around;
+    width: 272px;
+    height: 49px;
+}
+
+.text-2   {
+    display:flex;
+    color:  hsl(39, 100%, 56%);
+    column-gap: 4px;
+}
+.score-2  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    column-gap: 4px;
+}
+
+.bar-3   {
+    display: flex;
+    /* column-gap: 72px; */
+    background-color: hsl(166, 100%, 37%,5%);
+    border: 1px solid hsl(166, 100%, 37%,5%) ;
+    border-radius: 10px;
+    justify-content: space-around;
+    width: 272px;
+    height: 49px;
+}
+
+.text-3   {
+    display:flex;
+    color:  hsl(166, 100%, 37%);
+    column-gap: 2px;
+}
+.score-3  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.bar-4   {
+    display: flex;
+    /* column-gap: 72px; */
+    background-color: hsl(234, 85%, 45%,5%);
+    border: 1px solid hsl(234, 85%, 45%,5%);
+    border-radius: 10px;
+    justify-content: space-around;
+    width: 272px;
+    height: 49px;
+}
+
+.text-4   {
+    display:flex;
+    color:  hsl(234, 85%, 45%);
+    column-gap: 2px;
+}
+.score-4  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.sum    {
+    margin: -26px 228px 34px 0px;
+}
+.button     {
+    background-color: hsl(224, 30%, 27%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid hsl(224, 30%, 27%);
+    border-radius: 10px;
+    width: 272px;
+    height: 49px;
+    color: white;
+    margin: 22px 0px 0px 0px;
+}
+.low    {
+    color: #0000005b;
+}
+
+/*left side*/
+.left   {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(241deg 68.6% 55.37%);
+    position: absolute;
+    right: 698px;
+    width: 400px;
+    height: 500px;
+    border: 1px solid  hsl(241deg 68.6% 55.37%);
+    border-radius: 20px;
+    justify-content: space-evenly;
+    z-index: 1;
+    align-items: center;
+    margin: 400px auto;
+}
+.ci {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: hsla(256, 72%, 46%, 1);
+    border: 1px solid hsla(256, 72%, 46%, 1);
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+.high-1   {
+    word-spacing: -8px;
+    font-weight: bold;
+    color: white;
+    font-size: 3rem;
+}
+.re  {
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.473);
+}
+.detials-1  {
+    color: white;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.above-ci   {
+    color: rgba(255, 255, 255, 0.445);
+    font-size: 25px;
+}
+.detials-2  {
+    color: #ffffff80;
+    display: flex;
+    word-break: break-word;
+    max-width: 263px;
+    justify-content: center;
+    align-items: center;
+}
