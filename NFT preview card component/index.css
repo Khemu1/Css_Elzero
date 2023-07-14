@@ -1,0 +1,18 @@
+*   {
+    text-transform: capitalize;
+    font-size: 16px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+}
+body    {
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Nav    {
+    display: flex;
+    flex-direction: row;
+}
