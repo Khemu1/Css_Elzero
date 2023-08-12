@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div {
+    background-color: red;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.1px rgb(128, 128, 128, 0.1) solid;
+    transform: rotate(6deg);
+    position: relative;
+}
+div::before {
+    content: "Elzero";
+    background-color: #eee;
+    transform: rotate(-11deg);
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 128, 255);
+    font-size: 25px;
+    font-family: "Times New Roman", Times, serif;
+}
+div::after {
+    content: "";
+    background-color: rgb(0, 128, 255);
+    transform: rotate(-5deg);
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    z-index: 1;
+}
